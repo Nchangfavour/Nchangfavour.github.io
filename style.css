@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: start;
+}
+.about{
+    background-color: #4E4E59;
+width: 20%;
+height: 600px;
+}
+.showcase{
+    background-image: url(images/IMG-20240314-WA0006.jpg);
+    background-size: 100%;
+    width: 80%;
+    height: 600px;
+    position: relative;
+}
+.profile{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+}
+.profile img{
+    width: 50%;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 25px 10px;
+    margin: 0 5px;
+}
+.content{
+    width: 100%;
+    margin-top: 20px;
+}
+footer{
+    padding-top: 10px;
+    background-color: skyblue;
+    height: 40px;
+}
+.textcontent {
+position: absolute;
+width: 350px;
+height: 400px;
+
+top: 100px;
+left: 50px;
+}
+ .textcontent h2{
+    color: wheat;
+    margin-top: 15px;
+}
+.textcontent .para{
+    color: wheat;
+    margin-top: 10px;
+}
+button{
+    margin-top: 100px;
+    align-self: center;
+    background-color: transparent;
+    border-color: green;
+    height: 40px;
+    color: #fff;
+}
+h1{
+    margin-top: 15px;
+    color: white;
+}
+.textcontent p{
+color: #fff;
+}
+.zapp{
+    width: 30px;
+    height: 30px;
+    
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+
+}
+header{
+    height: 50px;
+    width: 100%;
+    
+    display:flex;
+    justify-content: space-between;
+    padding:10px 10px;
+}
+.nav_bar ul {
+    display: flex;
+}
+.nav_bar ul li a {
+display:block;
+color: crimson;
+font:20px ;
+padding: 10px 25px;
+text-decoration: none;
+margin: 0 5px;
+border-radius: 50px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, alpha);
+}
+.nav_bar ul li {
+    list-style:none ;
+    
+}
+.nav_bar ul li a:hover {
+color: #11101b;
+background: #fefefe;
+transition: 1s;
+background-color: #147fd7;;
+
+}
+.nav_bar ul li a.active {
+    color: #11101b;
+    background-color: #147fd7;
+}
+.logo{
+    color: crimson;
+    font-weight: bold;
+}
+header {
+    background:grey ;
+}
+  body {
+    background-image: url(images/think.jpg);
+    color: darkslateblue;
+    background-repeat: no-repeat;
+    block-size: cover;
+    padding: 10px 10px 10px 10px;
+    
+}
+.cont a {
+    text-decoration: none;
+}
+body .div1{
+    box-shadow: horizontal  blue;
+}
+.sevices{
+    background-image: url(images/Snapchat-1450580332.jpg);
+}
+        .div1{
+            background-color: ash;
+        }
+        #mm {
+     height: 250px;
+width: 50%;
+        }
+#aa{
+    text-decoration: none;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 15px 15px 15px;
+}
+#pp{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body skills.html{
+    background-image: url(images/IMG-20240314-WA0006.jpg);
+}
+/*for mobile */
+@media  only screen  and (max-width:600px) {
+    header {
+        display: block;
+        height: 100px;
+    }
+    .one{
+    width:100%;
+    }
+    .two{
+        display: block;
+        width: 100%;
+        margin-top: 200px;
+        height: 300px;
+    }
+    .three{
+        width:100%;
+        }
+        .four{
+            display: block;
+            width: 100%;
+            margin-top: 200px;
+            height: 300px;
+        }
+        .five{
+            width:100%;
+            }
+            .six{
+                display: block;
+                width: 100%;
+                margin-top: 200px;
+                height: 300px;
+            }
+            .seven{
+                width:100%;
+                }
+            .eight{
+                display: block;
+                    width: 100%;
+                    margin-top: 100px;
+                    height: 200px;
+                }
+    }
+    /*  for tablet*/
+    @media only screen and (max-width:768px) {
+        .one{
+            display: block;
+            height: 550px;
+        }
+        .two{
+            margin-top: 200px;
+            width: 100%;height: 150px;
+        }
+    }
+        
+    .ten{
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+.ten a i {
+    text-decoration: none;
+    color: #11101b;
+}
